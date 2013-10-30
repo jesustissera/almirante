@@ -1,0 +1,417 @@
+
+#pagina{margin:10px 0px 10px 0px;}
+#contenedor{
+background-color:white;
+margin:0px auto;
+width:960px;
+overflow:auto;
+}
+.banner {
+width:960px;
+height:320px;
+}
+
+.banner img{
+width:100%;
+height:100%;
+}
+
+.titulo_banner{
+padding:20px;
+font-family:Stencil;
+color:white;
+font-size:60px; 
+}
+#titulo{
+background-image:url("../img/titulo.png");
+margin-left:30px;
+width:90%;
+height:8%;
+border: 1px solid;
+border-color:black;
+}
+.titulo_letras{
+margin-top:10px;
+margin-left:190px;
+font-size:20px;
+color:white;
+font-family:verdana;
+}
+
+
+body{
+background-image:url("../img/fondo_modificado.jpg");
+/*background-image:url(../img/fondo.jpg);
+background-position:center top;
+background-repeat:no-repeat;
+background-attachment: fixed;*/
+}
+.cuerpo{overflow:auto;}
+#right{
+float: left;
+width: 300px;
+padding-left: 10px;
+
+}
+
+.imagen_letras{
+font-family:Lucida Sans Unicode;
+font-size:13px;
+float:left;
+width:240px;
+padding:10px;
+margin-left:5px;
+}
+
+.encuentro img{
+margin-top:10px;
+width:100%;
+height:160px;
+font-family:Lucida Sans Unicode;
+background-color:red;
+}
+
+.propagandas img{
+margin:5px 5px 5px 5px;
+width:240px;
+height:100px;
+float:left;
+font-family:Lucida Sans Unicode;
+background-color:yellow;
+}
+
+
+.center{
+float: right;
+width: 65%;
+color:white;
+}
+
+.caja_info{
+width:550px;
+margin:0px auto;
+margin-top:10px;
+margin-left:30px;
+}
+
+.caja_info_imagen{
+margin-top :5px;
+width: 545px;
+height:400px;
+}
+
+.caja_info_imagen img{
+margin-top :5px;
+width: 545px;
+height:400px;
+}
+
+
+.caja_infantil{
+margin-top :5px;
+width: 550px;
+height:250px;
+
+}
+.caja_info_letras{
+margin-top:10px;
+background-color:yellow;
+font-family:Lucida Sans Unicode;
+font-size:15px;
+color:black;
+width:520px;
+padding:15px;
+/*border:3px solid;
+border-color:black;*/
+}
+.center_galeria{
+width:600px;
+overflow:auto;
+padding:10px;
+margin-top:5px;
+}
+
+#iconos{
+width:20px;
+height:20px;
+float:right;
+margin-right:10px;
+margin-top:10px;
+}
+
+
+
+#piepagina{
+color:white;
+width:960px;
+background-image:url("../img/fondo_modificado.jpg");
+height:60px;
+margin:0 auto;
+font-family:Lucida Sans Unicode;
+font-size:13px;
+}
+
+.caja_juveniles{
+	background-color:grey;
+	width:400px;
+	color:black;
+	margin-top:20px;
+	margin-left:30px;
+	overflow:auto;
+}
+	
+
+.caja{
+	background-color:#808080;
+	width:90%;
+	margin-top:20px;
+	margin-left:30px;
+	overflow:auto;
+	border-color:#000000;	
+}
+	
+.caja_foto{
+	background-color:yellow;
+	width:150px;
+	height:150px;
+	float:left;	
+	margin:10px 10px 10px 10px ;
+	
+}
+
+.caja_foto img{
+width:100%;
+}
+
+.caja_titulo{
+float:left;
+width:350px;
+height:7%;
+background-image:url("../img/titulo1.jpg");
+margin:10px 10px 10px 10px ;
+}
+
+.caja_titulo_letras{
+width:50%;
+height:40%;
+float:right;
+padding:15px;
+font-size:15px;
+color:black;
+font-family:Verdana;
+font-style:oblique;
+}
+
+.caja_letras{
+float:left;
+margin:10px 10px 10px 10px ;
+width:60%;
+font-size:12px;
+font-family:Lucida Sans Unicode;
+background-color:yellow;
+}
+.caja_foto img{
+width:100%;
+height:100%;
+border:2px solid;
+border-color:black;
+
+}	
+
+
+
+#menu{
+width:946px;
+height:35px;
+padding-left:14px;
+/*margin-top:-15px;*/
+/*background-color: #1f1f1f;*/
+background-image:url("../img/fondo_modificado.jpg");
+}
+
+
+#button{
+width: 100%;
+float: left;
+font-family:"Lucida Sans Unicode", "Trebuchet Unicode MS", "Lucida Grande",sans-serif;
+font-size:13px; /* Tamaño de la fuente */
+font-weight:bold;
+
+}
+#button ul{
+float:left;
+height:0px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#button li{
+float:left;
+padding:0px;
+}
+
+#button li a{
+/*background:#333333 url(http://lh4.googleusercontent.com/-iqgCHipLGx4/T5DqLrsVALI/AAAAAAAACaI/bcIY7SV8s5I/s35/separador.gif) bottom right no-repeat;*/
+color:white; /* Color de la fuente */
+display:block;
+font-weight:normal;
+line-height:35px;
+margin:0px;
+padding:0px 25px; /* Espacio entre cada pestaña */
+text-align:center;
+text-decoration:none;
+}
+#button li a:hover, #button ul li:hover a {
+background: yellow; /* Color de las pestañas al pasar el cursor */
+color:black; /* Color del texto al pasar el cursor */
+text-decoration:none;
+}
+	#button li ul {
+	background:#333333; /* Color de fondo del submenú */
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	width:200px; /* Ancho del submenú */
+	z-index:100;
+	border-top:1px solid #fff; /* Borde superior del submenú */
+	}
+	#button li:hover ul{
+	display:block;
+	}
+	#button li li {
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:200px;
+
+	}
+	#button li:hover li a {
+	background:none;
+	/*border-radius: 0px 0px 20px 20px;  Borde de las subpestañas */
+	}
+	#button li ul a {
+	display:block;
+	height:35px;
+	font-size:12px;
+	font-style:normal;
+	margin:0px;
+	padding:0px 10px 0px 15px;
+	text-align:left;
+	}
+	#button li ul a:hover, #button li ul li:hover a{
+	background:yellow; /* Color de las subpestañas al pasar el cursor */
+	color:black;
+	text-decoration:none;
+	}
+	
+#tabla{
+border:solid 2px ;
+border-color:black;
+width:500px;
+}	
+
+tr{
+border:2px solid;
+}
+
+td{
+border:2px solid;
+padding:5px;
+}
+
+#color_tr{
+background-color:grey;
+}
+
+.center_galeria .img{
+width:550px;
+overflow:auto;
+padding:10px;
+margin:auto;
+
+}
+
+#mover{
+font-family:Lucida Sans Unicode;
+margin-top:-10px;
+width:550px;
+text-align:center;
+}
+
+a{
+	text-decoration:none;
+
+}
+
+
+
+/********************Galeria de imagenes********************/
+
+#dewbody {
+	font-family:"Myriad","Myriad Pro",Georgia,Helvetica,Sans-serif;
+	height:100%;
+	padding:0 0 5em 0;
+	margin:0;
+	/* background:#eee; */
+	background-color:red;
+}
+
+#dewbody #content {
+	width:50%;
+	margin:auto;
+	background-color:yellow;
+}
+
+#dewbody #players {
+	background:#fff;
+	overflow:auto;
+	background-color:green;
+}
+
+#dewbody #players object {
+	margin:20px 0 20px 50px;
+	background-color:blue;
+}
+
+#dewbody h1 {
+	color:#456;
+	margin-top:2em;
+	padding:0 0 20px 10px;
+	font-weight:normal;
+	border-bottom:1px solid #ddd;
+}
+
+#dewbody h2 {
+	font-weight:normal;
+	background:#eee;
+	padding:2em 10px 10px 10px;
+	color:#444;
+	font-size:130%;
+	text-align:left;
+	margin:0;
+}
+
+#dewbody p {
+	margin:10px;
+	padding-bottom:10px;
+}
+
+#dewbody .hint {
+	color:#666;
+	float:right;
+	width:300px;
+	text-align:left;
+	margin-right:10px;
+	background:#f6f6e0;
+	padding:10px;
+	clear:both;
+}
+
+#dewbody a {
+	text-decoration:none;
+	color:#369;
+}

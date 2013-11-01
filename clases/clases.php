@@ -51,10 +51,10 @@ echo "</html>";
 
 public function right(){
 echo "<div id='right'>";
-echo "<div class='imagen_letras'><H1>FECHA N°13</H1></div>";
+echo "<div class='imagen_letras'><H1>FECHA N°15</H1></div>";
 echo "<div class='encuentro'><img src='img/versus.jpg'></div>";
 echo "<div class='imagen_letras'>";
-echo "<B>Dia:</B>Martes 29<br><b>Horario:</b>18:10 hs por TV<br><b>Arbitro:</b>Diego Ceballos<br><b>Estadio:</b>Fragata Presidente Sarmiento<br><b>Proxima Fecha:</b>Patronato<br>";
+echo "<B>Dia:</B>Domingo 3<br><b>Horario:</b>19 hs<br><b>Arbitro:</b>Mariano Gonzalez<br><b>Estadio:</b>Presbítero Bartolomé Grella<br><b>Proxima Fecha:</b>Brown Adrogue<br>";
 echo "</div>";
 echo "<div class='propagandas'><a href='http://www.aukans.com/'><img src='img/sponsors/1.jpg'></a></div><br>";
 echo "<div class='propagandas'><img src='img/sponsors/2.jpg' ></div>";
@@ -77,10 +77,11 @@ if(!isset($_GET['index'])){
 echo "<div class='center'>";
 echo "<br>";
 echo "<div id='titulo'><div class='titulo_letras'>Informaci&oacute;n General</div></div>";
+echo "<div class='caja'><div class='caja_lista1'><img src='img/box/lista1.jpg'></div></div>";
+echo "<div class='caja'><div class='caja_foto'><img src='img/box/instituto.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Profesional</div></div><div class='caja_letras'>Algunas imagenes del encuentro entre Almirante y Instituto de Cordoba.<br><a href='index.php?index=box7'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/tenis.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Tenis (Copa)</div></div><div class='caja_letras'>Organizaci&oacute;n: Metro Tournament Professional<br> Sede:  Club Almirante Brown<br> Direcci&oacute;n: J. I. Rucci Y Segui - Isidro Casanova Bs As<br> Fecha: Del 17 al 22 de noviembre de 2013<br> Director del Torneo: Prof. Marcelo Meneo<br><br><a href='index.php?index=copaAlmirantenis'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/inde.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Profesional</div></div><div class='caja_letras'>Historicos 3 puntos quedaron en el Fragata Presidente Sarmiento. Almirante derrotó por 1 a 0 a Independiente en su primer visita al estadio.<br><a href='index.php?index=box1'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/infantil.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Infantil</div></div><div class='caja_letras'>Posici&oacute;n de los chicos del nivel Inicial en la Zona 5 y de los chicos del nivel Competitivo en la Zona C.<br><a href='index.php?index=box8'>Leer m&aacute;s</a></div></div>";
-echo "<div class='caja'><div class='caja_foto'><img src='img/sede/sede.png' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Venta De Entradas</div></div><div class='caja_letras'>Precios, horarios y puntos de venta de las entradas para el partido contra independiente. <br><a href='index.php?index=box7'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/sanmartin.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Profesional</div></div><div class='caja_letras'>Algunas imagenes del encuentro que se disputo ante San Martin de San Juan, En el Estadio Fragata Presidente Sarmiento.<br><a href='index.php?index=box6'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/chulo.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Profesional</div></div><div class='caja_letras'>Tras la renuncia de la dupla Tobio - Ojeda, luego la derrota frente al lobo jujeño, Hector el Chulo Rivoira es el elegido para ayudar a almirante en esta... <br><a href='index.php?index=box5'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/merendero.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Merendero</div></div><div class='caja_letras'>El dia 4 de Septiembre se disputaron una serie de partidos amistosos frente club municipal de concepcion de Tucuman.<br><a href='index.php?index=box2'>Leer m&aacute;s</a></div></div>";
@@ -115,7 +116,7 @@ echo "<table id='tabla'>";
 echo "<tr id='color_tr'><td>Fecha</td><td width='100px'>Rival</td><td width='10px'>Resultado</td><td>Fecha</td><td width='100px'>Rival</td><td width='50px'>Resultado</td></tr>";
 echo "<tr><td>1ra</td><td>Alte-Banfield</td><td>1 - 1</td>       <td>12da</td><td>Alte-Independiente</td><td>1 - 0</td></tr>";
 echo "<tr><td>2da</td><td>V.San Carlos-Alte</td><td>1 - 2</td>     <td>13ra</td><td>Def. y Justicia-Alte</td><td>0 - 1</td></tr>";
-echo "<tr><td>3ra</td><td>Alte-Sarmiento</td><td>2 - 4</td>        <td>14ta</td><td>Alte-Instituto</td><td></td></tr>";
+echo "<tr><td>3ra</td><td>Alte-Sarmiento</td><td>2 - 4</td>        <td>14ta</td><td>Alte-Instituto</td><td>1 - 1</td></tr>";
 echo "<tr><td>4ta</td><td>Talleres C.-Alte</td><td>0 - 1</td>      <td>15ta</td><td>Patronato-Alte</td><td></td></tr>";
 echo "<tr><td>5ta</td><td>Alte-Union</td><td>0 - 1</td>            <td>16ta</td><td>Alte-Brown Adrogue</td><td></td></tr>";
 echo "<tr><td>6ta</td><td>Alte-Douglas Haig</td><td>0 - 0</td>     <td>17ta</td><td>Boca Unidos-Alte</td><td></td></tr>";
@@ -535,16 +536,13 @@ echo "<div class='center'>";
 echo "<br>";
 echo "<div id='titulo'><div class='titulo_letras'>Venta de Entradas</div></div>";
 echo"<div class='caja_info' >";
-echo "<div class='caja_info_imagen'><img src='img/sede/sede.png'></div>";
 echo "<div class='caja_info_letras'>";
-echo "Horarios de 10 hs a 20 hs tanto en la sede social como en la ciudad deportiva. Resta confirmar si se venderan entradas el sabado antes del partido.<br><br>";
-echo "<b>Precio jubilados y damas:</b> $45<br><br>";
-echo "<b>Precio menores:</b> $25<br><br>";
-echo "<b>Precios No Socio</b><br><b>Generales:</b> $50<br><b>Platea:</b> $250<br><br>";
-echo "<b>Precios Socio</b><br><b>Platea:</b> $150<br><br>";
-echo "<b>Precio Bono:</b> $20 <br><br>";
-echo "<b>ATENCION:</b> Les informamos a los socios y no socios del Club Almirante Brown que el bono lo deben abonar todos.";
+echo "Algunas imagenes del empate entre Almirante e Instituto de Cordoba. ";
 echo "</div>";
+for ($c=1;$c<=15;$c++){
+echo "<div class='caja_info_imagen'><img src='img/instituto/".$c.".jpg' width='545px' height='400px'></div>";
+}
+
 echo "</div><br>";
 echo "<br>";
 echo "</div>";
@@ -732,7 +730,7 @@ echo "<div class='center'>";
 echo "<br>";
 echo "<div id='titulo'><div class='titulo_letras'>Gimnasio	</div></div>";
 echo"<div class='caja_info' >";
-for ($c=1;$c<=10;$c++){
+for ($c=1;$c<=7;$c++){
 echo "<div class='caja_info_imagen'><img src='img/gimnasio/".$c.".jpg' width='545px' height='400px'></div>";
 }
 echo "</div><br></div>";

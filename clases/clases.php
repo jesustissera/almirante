@@ -56,6 +56,8 @@ echo "<div class='encuentro'><img src='img/versus.jpg'></div>";
 echo "<div class='imagen_letras'>";
 echo "<B>Dia:</B>Domingo 3<br><b>Horario:</b>19 hs<br><b>Arbitro:</b>Mariano Gonzalez<br><b>Estadio:</b>Presbítero Bartolomé Grella<br><b>Proxima Fecha:</b>Brown Adrogue<br>";
 echo "</div>";
+echo "<div class='novedad'><img src='img/8.jpg'></div><br>";
+echo "<div class='imagen_letras'><b>Felicitaciones a Luis Arias por su debut en primera divisi&oacute;n.</b><br>Almirante sigue promocionando jugadores a la primera categor&iacute;a.<br> Luis se suma a una larga lista compuesta por jugadores como Ortiz, Ibars, Gimenez, Precedo,Guitierrez, entre otros.</div>";
 echo "<div class='propagandas'><a href='http://www.aukans.com/'><img src='img/sponsors/1.jpg'></a></div><br>";
 echo "<div class='propagandas'><img src='img/sponsors/2.jpg' ></div>";
 echo "<div class='propagandas'><img src='img/sponsors/3.jpg'></div>";
@@ -109,7 +111,7 @@ echo"Francisco Grahl, Mauro Marrone, Gerardo Menseguez, Sergio Meza S&aacute;nch
 echo "<b>Delanteros:</b><br>Diego Ceballos, Leonardo Fag&uacute;ndez Fern&aacute;ndez, Cristian Guti&eacute;rrez, Diego Nadaya, Luciano Olgu&iacute;n, Sergio P&eacute;rez<br><br>";
 echo "</div>";
 echo "<div class='caja_info_letras'><b>Tabla de posiciones:</b></div>";
-echo "<div class='caja_info_imagen'><img src='img/fixture.png' /></div><br>";
+echo "<div class='caja_info_imagen'><img src='img/fixture.jpg' width='545px' height='400px' /></div><br>";
 echo "<div class='caja_info_letras'>";
 echo "Fixture de Almirante Brown (Primer Rueda):<br><br>";
 echo "<table id='tabla'>";

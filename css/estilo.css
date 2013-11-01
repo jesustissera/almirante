@@ -47,8 +47,15 @@ background-attachment: fixed;*/
 .cuerpo{overflow:auto;}
 #right{
 float: left;
-width: 300px;
+width: 30%;
 padding-left: 10px;
+}
+
+
+.center{
+float: right;
+width:68%;
+color:white;
 }
 
 .imagen_letras{
@@ -78,11 +85,6 @@ background-color:yellow;
 }
 
 
-.center{
-float: left;
-width: 640px;
-color:white;
-}
 
 .caja_info{
 width:550px;
@@ -178,15 +180,15 @@ height:600px;
 }
 .caja_titulo{
 float:left;
-width:350px;
+width:60%;
 height:50px;
 background-image:url("../img/titulo1.jpg");
 margin:10px 10px 10px 10px ;
 }
 
 .caja_titulo_letras{
-width:200px;
-height:40px;
+width:50%;
+height:10%;
 float:right;
 padding:15px;
 font-size:15px;
@@ -195,11 +197,11 @@ font-family:Verdana;
 font-style:oblique;
 }
 
+
 .caja_letras{
-float:left;
+float:right;
 margin:10px 10px 10px 10px ;
 width:350px;
-height:100px;
 font-size:12px;
 font-family:Lucida Sans Unicode;
 }

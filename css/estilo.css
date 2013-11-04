@@ -72,7 +72,6 @@ margin-top:10px;
 width:280px;
 height:160px;
 font-family:Lucida Sans Unicode;
-background-color:red;
 }
 
 .propagandas img{
@@ -84,11 +83,14 @@ font-family:Lucida Sans Unicode;
 background-color:yellow;
 }
 
+<<<<<<< HEAD
+=======
 .novedad img{
 width:270px;
 height:220px;
 margin:5px 5px -5px 5px;
 }
+>>>>>>> a576622e48fa83165fbf228fce85b55129c0fb8c
 
 .caja_info{
 width:550px;

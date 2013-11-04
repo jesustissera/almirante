@@ -51,10 +51,10 @@ echo "</html>";
 
 public function right(){
 echo "<div id='right'>";
-echo "<div class='imagen_letras'><H1>FECHA N°15</H1></div>";
+echo "<div class='imagen_letras'><H1>FECHA N°16</H1></div>";
 echo "<div class='encuentro'><img src='img/versus.jpg'></div>";
 echo "<div class='imagen_letras'>";
-echo "<B>Dia:</B>Domingo 3<br><b>Horario:</b>19 hs<br><b>Arbitro:</b>Mariano Gonzalez<br><b>Estadio:</b>Presbítero Bartolomé Grella<br><b>Proxima Fecha:</b>Brown Adrogue<br>";
+echo "<B>Dia:</B>A confirmar<br><b>Horario:</b>A confirmar<br><b>Arbitro:</b>A confirmar<br><b>Estadio:</b>Fragata Presidente Sarmiento<br><b>Proxima Fecha:</b>Boca Unidos<br>";
 echo "</div>";
 echo "<div class='novedad'><img src='img/8.jpg'></div><br>";
 echo "<div class='imagen_letras'><b>Felicitaciones a Luis Arias por su debut en primera divisi&oacute;n.</b><br>Almirante sigue promocionando jugadores a la primera categor&iacute;a<br> Luis se suma a una larga lista compuesta por jugadores como Ortiz, Ibars, Gimenez, Precedo,Gutierrez, entre otros.</div>";
@@ -80,7 +80,10 @@ echo "<div class='center'>";
 echo "<br>";
 echo "<div id='titulo'><div class='titulo_letras'>Informaci&oacute;n General</div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/elecciones.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Elecciones</div></div><div class='caja_letras'>Ya siendo las 17 hs, terminan las votaciones y en momentos, comienza el recuento de los...<br><a href='index.php?index=boxElecciones'>Leer m&aacute;s</a></div></div>";
+<<<<<<< HEAD
 echo "<div class='caja'><div class='caja_lista1'><img src='img/box/lista1.jpg'></div></div>";
+=======
+>>>>>>> c6a6dc81b92e4bd4026310e88f164afe103220ce
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/instituto.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Profesional</div></div><div class='caja_letras'>Algunas imagenes del encuentro entre Almirante y Instituto de Cordoba.<br><a href='index.php?index=box7'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/tenis.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Tenis (Copa)</div></div><div class='caja_letras'>Organizaci&oacute;n: Metro Tournament Professional<br> Sede:  Club Almirante Brown<br> Direcci&oacute;n: J. I. Rucci Y Segui - Isidro Casanova Bs As<br> Fecha: Del 17 al 22 de noviembre de 2013<br> Director del Torneo: Prof. Marcelo Meneo<br><br><a href='index.php?index=copaAlmirantenis'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/inde.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Profesional</div></div><div class='caja_letras'>Historicos 3 puntos quedaron en el Fragata Presidente Sarmiento. Almirante derrotó por 1 a 0 a Independiente en su primer visita al estadio.<br><a href='index.php?index=box1'>Leer m&aacute;s</a></div></div>";
@@ -112,7 +115,11 @@ echo"Francisco Grahl, Mauro Marrone, Gerardo Menseguez, Sergio Meza S&aacute;nch
 echo "<b>Delanteros:</b><br>Diego Ceballos, Leonardo Fag&uacute;ndez Fern&aacute;ndez, Cristian Guti&eacute;rrez, Diego Nadaya, Luciano Olgu&iacute;n, Sergio P&eacute;rez<br><br>";
 echo "</div>";
 echo "<div class='caja_info_letras'><b>Tabla de posiciones:</b></div>";
+<<<<<<< HEAD
+echo "<div class='caja_info_imagen'><img src='img/fixture.jpg'  /></div><br>";
+=======
 echo "<div class='caja_info_imagen'><img src='img/fixture.jpg' width='545px' height='400px' /></div><br>";
+>>>>>>> a576622e48fa83165fbf228fce85b55129c0fb8c
 echo "<div class='caja_info_letras'>";
 echo "Fixture de Almirante Brown (Primer Rueda):<br><br>";
 echo "<table id='tabla'>";
@@ -120,7 +127,7 @@ echo "<tr id='color_tr'><td>Fecha</td><td width='100px'>Rival</td><td width='10p
 echo "<tr><td>1ra</td><td>Alte-Banfield</td><td>1 - 1</td>       <td>12da</td><td>Alte-Independiente</td><td>1 - 0</td></tr>";
 echo "<tr><td>2da</td><td>V.San Carlos-Alte</td><td>1 - 2</td>     <td>13ra</td><td>Def. y Justicia-Alte</td><td>0 - 1</td></tr>";
 echo "<tr><td>3ra</td><td>Alte-Sarmiento</td><td>2 - 4</td>        <td>14ta</td><td>Alte-Instituto</td><td>1 - 1</td></tr>";
-echo "<tr><td>4ta</td><td>Talleres C.-Alte</td><td>0 - 1</td>      <td>15ta</td><td>Patronato-Alte</td><td></td></tr>";
+echo "<tr><td>4ta</td><td>Talleres C.-Alte</td><td>0 - 1</td>      <td>15ta</td><td>Patronato-Alte</td><td>0 - 0</td></tr>";
 echo "<tr><td>5ta</td><td>Alte-Union</td><td>0 - 1</td>            <td>16ta</td><td>Alte-Brown Adrogue</td><td></td></tr>";
 echo "<tr><td>6ta</td><td>Alte-Douglas Haig</td><td>0 - 0</td>     <td>17ta</td><td>Boca Unidos-Alte</td><td></td></tr>";
 echo "<tr><td>7ma</td><td>C. Del Norte-Alte</td><td>2 - 0</td>     <td>18va</td><td>Alte-Aldosivi</td><td></td></tr>";

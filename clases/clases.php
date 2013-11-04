@@ -57,7 +57,7 @@ echo "<div class='imagen_letras'>";
 echo "<B>Dia:</B>Domingo 3<br><b>Horario:</b>19 hs<br><b>Arbitro:</b>Mariano Gonzalez<br><b>Estadio:</b>Presbítero Bartolomé Grella<br><b>Proxima Fecha:</b>Brown Adrogue<br>";
 echo "</div>";
 echo "<div class='novedad'><img src='img/8.jpg'></div><br>";
-echo "<div class='imagen_letras'><b>Felicitaciones a Luis Arias por su debut en primera divisi&oacute;n.</b><br>Almirante sigue promocionando jugadores a la primera categor&iacute;a.<br> Luis se suma a una larga lista compuesta por jugadores como Ortiz, Ibars, Gimenez, Precedo,Guitierrez, entre otros.</div>";
+echo "<div class='imagen_letras'><b>Felicitaciones a Luis Arias por su debut en primera divisi&oacute;n.</b><br>Almirante sigue promocionando jugadores a la primera categor&iacute;a<br> Luis se suma a una larga lista compuesta por jugadores como Ortiz, Ibars, Gimenez, Precedo,Gutierrez, entre otros.</div>";
 echo "<div class='propagandas'><a href='http://www.aukans.com/'><img src='img/sponsors/1.jpg'></a></div><br>";
 echo "<div class='propagandas'><img src='img/sponsors/2.jpg' ></div>";
 echo "<div class='propagandas'><img src='img/sponsors/3.jpg'></div>";
@@ -74,11 +74,12 @@ echo "<br><br></div>";
 }
 
 public function center(){
-
+/*boxElecciones*/
 if(!isset($_GET['index'])){
 echo "<div class='center'>";
 echo "<br>";
 echo "<div id='titulo'><div class='titulo_letras'>Informaci&oacute;n General</div></div>";
+echo "<div class='caja'><div class='caja_foto'><img src='img/box/elecciones.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Elecciones</div></div><div class='caja_letras'>Ya siendo las 17 hs, terminan las votaciones y en momentos, comienza el recuento de los...<br><a href='index.php?index=boxElecciones'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_lista1'><img src='img/box/lista1.jpg'></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/instituto.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Futbol Profesional</div></div><div class='caja_letras'>Algunas imagenes del encuentro entre Almirante y Instituto de Cordoba.<br><a href='index.php?index=box7'>Leer m&aacute;s</a></div></div>";
 echo "<div class='caja'><div class='caja_foto'><img src='img/box/tenis.jpg' ></div><div class='caja_titulo'><div class='caja_titulo_letras'>Tenis (Copa)</div></div><div class='caja_letras'>Organizaci&oacute;n: Metro Tournament Professional<br> Sede:  Club Almirante Brown<br> Direcci&oacute;n: J. I. Rucci Y Segui - Isidro Casanova Bs As<br> Fecha: Del 17 al 22 de noviembre de 2013<br> Director del Torneo: Prof. Marcelo Meneo<br><br><a href='index.php?index=copaAlmirantenis'>Leer m&aacute;s</a></div></div>";
@@ -572,6 +573,25 @@ echo "</div><br>";
 echo "<br>";
 echo "</div>";
 }
+
+if($index=='boxElecciones'){
+echo "<div class='center'>";
+echo "<br>";
+echo "<div id='titulo'><div class='titulo_letras'>Elecciones</div></div>";
+echo"<div class='caja_info' >";
+echo "<div class='caja_info_letras'>";
+echo "Ya siendo las 17 hs, terminan las votaciones y en momentos, comienza el recuento de los votos. Se pudo apreciar una gran cantidad 
+de socios que asisitieron a las elecciones. Ahora solamente queda esperar la decisi&oacute;n del pueblo mirasol. Compartimos con ustedes unas imagenes del
+dia de hoy.";
+echo "</div>";
+for ($c=1;$c<=9;$c++){
+echo "<div class='caja_info_imagen'><img src='img/elecciones/".$c.".jpg' width='545px' height='400px'></div>";
+}
+echo "</div><br>";
+echo "<br>";
+echo "</div>";
+}
+
 
 if($index=='copaAlmirantenis'){
 echo "<div class='center'>";
